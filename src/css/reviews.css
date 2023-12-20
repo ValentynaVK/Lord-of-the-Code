@@ -1,0 +1,15 @@
+.container_reviews{
+    max-width: 375px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.reviews_title{
+    color: #FBFBFB;
+text-align: center;
+font-size: 28px;
+font-weight: 500;
+line-height: 1; /* 100% */
+letter-spacing: -0.02em;
+}
