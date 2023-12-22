@@ -141,7 +141,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.4; /* 22.4px */
 letter-spacing: -0.02em;
-width: 303px;
+max-width: 303px;
 }
 .reviews-box-photo{
     width: 56px;
