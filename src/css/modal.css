@@ -85,6 +85,16 @@ background: #FBFBFB;
     background: rgba(27, 65, 75, 0.50);
     margin-bottom: 4px;
 }
+.mobile-menu-li-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(27, 65, 75, 0.50);
+}
 /* .mobile-menu-li-a {
     color: var(--NAVY-BLUE, #000000);
     font-size: 36px;
@@ -167,4 +177,3 @@ input::placeholder {
     line-height: normal;
     letter-spacing: -0.42px;
 }
-jhhjbh
