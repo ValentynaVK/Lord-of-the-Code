@@ -1,0 +1,99 @@
+@media screen and (min-width: 768) {
+    
+}
+
+@media screen and (min-width: 1280) {
+
+}
+
+@media screen and (max-width: 1280) {
+
+} 
+
+/* ========mobile======== */
+@media screen and (max-width: 767) {
+    
+}
+
+.advant-section {
+    background-color: #0E1823;
+    padding: 80px 0;
+}
+
+.advant-conteiner {
+    display: flex;
+    width: 335px;
+    height: 642px;
+    padding: 468px 20px 80px 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #1B414B;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advant-list {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.advant-list-item {
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 80px;
+}
+
+.decor {
+    width: 295px;
+    height: 2px;
+    flex-shrink: 0;
+}
+
+.decor::before {
+    content: "";
+    width: 295px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: rgba(251, 251, 251, 0.10);
+    position: absolute;
+    display: block;
+}
+
+.advent-photo {
+    width: 335px;
+    height: 424px;
+    background: url(<path-to-image>), lightgray -279.167px -3px / 245.174% 108.962% no-repeat;flex-shrink: 0;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
