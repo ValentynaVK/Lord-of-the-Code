@@ -1,0 +1,130 @@
+@media screen and (max-width: 767px) {
+
+    .hero-section {
+        padding: 198px 0 243px 0;
+        background-color: darkgray;
+        text-align: center;
+        background-image: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url("../img/mob/bg-hero@1x.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 375px;
+    }
+
+    .hero-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero-title {
+        color: #FBFBFB;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    .hero-text {
+        text-align: center;
+        margin-bottom: 38px;
+        color: rgba(251, 251, 251, 0.70);
+        text-align: center;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 14px;
+    }
+
+
+    .hero-button {
+        border-radius: 15px;
+        background: #1B414B;
+        text-align: center;
+        padding: 14px 32px;
+        color: #FBFBFB;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+        cursor: pointer;
+        border: none;
+    }
+}
+
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .hero-section {
+        background-image: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url("../img/mob/bg-hero@2x.png");
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-section {
+        background-image: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url("../img/tablet/bg-hero@1x.png");
+        background-color: darkgray;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 1279px;
+        height: 962px;
+        padding: 280px 0 215px 0;
+    }
+
+    .hero-container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+
+    .hero-title {
+        margin-bottom: 24px;
+        color: #FBFBFB;
+        text-align: center;
+        font-family: Inter;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 70px;
+        letter-spacing: -1.4px;
+        width: 704px;
+        height: auto;
+    }
+
+    .hero-text {
+        text-align: center;
+        margin-bottom: 42px;
+        color: rgba(251, 251, 251, 0.70);
+        text-align: center;
+        font-weight: 300;
+        line-height: 14px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%;
+    }
+
+
+    .hero-button {
+        border-radius: 15px;
+        background: #1B414B;
+        text-align: center;
+        color: #FBFBFB;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+        padding: 16px 40px;
+        line-height: 110%;
+        letter-spacing: -0.36px;
+    }
+
+}
