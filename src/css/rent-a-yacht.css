@@ -1,6 +1,6 @@
 .rent-section {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 .rent-container {
@@ -26,13 +26,14 @@
   padding: 14px 18px;
   border-radius: 12px;
   border: 1px solid rgba(251, 251, 251, 0.2);
-  color: #fbfbfb66;
+  color: #fbfbfb;
   font-size: 12px;
   line-height: 1.17;
   background-color: transparent;
   outline: 0px solid transparent;
   margin-bottom: 18px;
   margin-top: 0;
+  transition: border-color 250ms linear;
 }
 
 .rent-form-input::placeholder {
@@ -50,16 +51,22 @@
   resize: none;
   font-size: 12px;
   line-height: 1.17;
-  color: rgba(251, 251, 251, 0.4);
+  color: #fbfbfb;
   background-color: transparent;
   outline: transparent;
   margin-bottom: 40px;
   margin-top: 0;
+  transition: border-color 250ms linear;
 }
 
 .rent-comment::placeholder {
   color: rgba(251, 251, 251, 0.4);
   font-weight: 400;
+}
+
+.rent-form-input:focus,
+.rent-comment:focus {
+  border-color: rgba(251, 251, 251, 0.5);
 }
 
 .rent-button {
@@ -77,21 +84,36 @@
   min-width: 122px;
   height: 46px;
   border: none;
+  transition: color 250ms linear, background-color 250ms linear;
+}
+
+.rent-button:hover,
+.rent-button:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
 }
 
 .rent-image {
   border-radius: 24px;
+  margin-right: auto;
+  margin-left: auto;
   background: lightgray -197.931px -2.822px / 187.774% 107.967% no-repeat;
 }
 
 @media screen and (min-width: 768px) {
   .rent-section {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 70px;
+    margin-bottom: 75px;
   }
 
   .rent-container {
     max-width: 768px;
+  }
+
+  .rent-form {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 472px;
   }
 
   .rent-title {
@@ -123,5 +145,20 @@
     padding: 18px 75px;
     min-width: 194px;
     height: 56px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .rent-container {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 50px;
+  }
+
+  .rent-button {
+    margin-bottom: 0;
   }
 }
