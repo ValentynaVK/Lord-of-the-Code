@@ -15,7 +15,7 @@
   
   
     <script type="module" crossorigin src="/Lord-of-the-Code/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Lord-of-the-Code/assets/index-32462ca7.css">
+    <link rel="stylesheet" href="/Lord-of-the-Code/assets/index-d40d048c.css">
   </head>
   <body>
     <!-- Діма Карвацький -->
@@ -147,53 +147,54 @@
     <!--  Маріанна Ткаченко -->
     <section class="rent-section" id="yacht-rental">
   <div class="rent-container">
-    <h2 class="rent-title">Rent a yacht now</h2>
-    <form>
-      <label class="rent-label" for="user-name">
-        <input
-          class="rent-form-input"
-          id="user-name"
-          name="user-name"
-          type="text"
-          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
-          title="Oleksii"
-          placeholder="Full Name"
-          required
-        />
-      </label>
-      <label class="rent-label" for="user-email">
-        <input
-          class="rent-form-input"
-          id="user-email"
-          name="user-email"
-          type="email"
-          placeholder="Email"
-          required
-        />
-      </label>
-      <label class="rent-label" for="user-phone">
-        <input
-          class="rent-form-input"
-          id="user-phone"
-          name="user-phone"
-          type="tel"
-          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-          title="xxx-xxx-xx-xx"
-          placeholder="Phone number"
-          required
-        />
-      </label>
-      <label class="rent-comment-label" for="user-comment">
-        <textarea
-          class="rent-comment"
-          id="user-comment"
-          name="user-comment"
-          placeholder="Comment"
-        >
-        </textarea>
-      </label>
-      <button class="rent-button" type="submit">Send</button>
-    </form>
+    <div class="rent-form">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form>
+        <label class="rent-label" for="user-name">
+          <input
+            class="rent-form-input"
+            id="user-name"
+            name="user-name"
+            type="text"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+            title="Ilona Ratushniak"
+            placeholder="Full Name"
+            required
+          />
+        </label>
+        <label class="rent-label" for="user-email">
+          <input
+            class="rent-form-input"
+            id="user-email"
+            name="user-email"
+            type="email"
+            placeholder="Email"
+            required
+          />
+        </label>
+        <label class="rent-label" for="user-phone">
+          <input
+            class="rent-form-input"
+            id="user-phone"
+            name="user-phone"
+            type="tel"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            placeholder="Phone number"
+            required
+          />
+        </label>
+        <label class="rent-comment-label" for="user-comment">
+          <textarea
+            class="rent-comment"
+            id="user-comment"
+            name="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </label>
+        <button class="rent-button" type="submit">Send</button>
+      </form>
+    </div>
     <picture>
       <source
         srcset="/Lord-of-the-Code/assets/yj-take-a-pride@1x-b4252144.png , /Lord-of-the-Code/assets/yj-take-a-pride@2x-6903648a.png 2x"
@@ -214,6 +215,7 @@
         height="412"
       />
       <img
+        class="rent-image"
         src="/Lord-of-the-Code/assets/yj-take-a-pride@1x-b4252144.png"
         alt="yacht on the water"
         width="658"
