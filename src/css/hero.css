@@ -15,7 +15,9 @@
         margin-right: auto;
         margin-left: auto;
         max-width: 375px;
-    }
+        display: flex;
+        flex-direction: column;
+        }
     .hero-title {
         color: #FBFBFB;
         text-align: center;
