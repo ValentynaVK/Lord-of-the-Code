@@ -22,8 +22,8 @@
 
 .advant-conteiner {
     display: flex;
-    width: 335px;
-    justify-content: flex-end;
+    max-width: 335px;
+   flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 }
@@ -62,9 +62,7 @@ li {
     line-height: 1.8;
 }
 
-.advant-list-item {
-  
-}
+
 
 .advant-list-item::before {
     counter-increment: list;
@@ -76,20 +74,14 @@ li {
     line-height: 1;
     letter-spacing: -0.05em;
     display: flex;
-    align-items: center;
-    margin-bottom: 18px;
-    border-radius: 18px;
-    background: rgba(251, 251, 251, 0.10);
-}
-
-.decor::before{ 
-    width: 295px;
-    height: 2px;
+    margin-bottom: 38px;
+  
 }
 
 
 
 .advant-paragraph {
+    position: relative;
     color: #FBFBFB;
     font-family: Inter;
     font-size: 12px;
@@ -98,6 +90,19 @@ li {
     line-height: 1.16;
     letter-spacing: -0.02em;
     opacity: 0.8;
+}
+.advant-paragraph::before{
+    position: absolute;
+    transform: translateY(-18px);
+    content: " ";
+    width: 295px;
+height: 2px;
+flex-shrink: 0;
+border-radius: 18px;
+background: rgba(251, 251, 251, 0.10);
+
+
+
 }
 
 .advent-photo {
