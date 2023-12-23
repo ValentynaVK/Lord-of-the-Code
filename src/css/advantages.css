@@ -23,14 +23,7 @@
 .advant-conteiner {
     display: flex;
     width: 335px;
-    height: 642px;
-    padding: 468px 20px 80px 20px;
-    flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
-    flex-shrink: 0;
-    border-radius: 24px;
-    background: #1B414B;
     margin-left: auto;
     margin-right: auto;
 }
@@ -48,17 +41,55 @@
     overflow: hidden;
 }
 
+ol {
+    padding-top: 18px;
+}
+
+li {
+    margin-bottom: 18px;
+}
+
 .advant-list {
     display: flex;
     flex-direction: column;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    gap: 40px;
+    margin: 0 0 20px 0;
+    border-radius: 24px;
+    background-color: #1B414B;
+    padding: 80px 20px;
+    list-style-type: none;
+    counter-reset: list;
+    line-height: 1.8;
 }
 
 .advant-list-item {
+  
+}
+
+.advant-list-item::before {
+    counter-increment: list;
+    content: counter(list, decimal-leading-zero);
+    color: #FBFBFB;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    border-radius: 18px;
+    background: rgba(251, 251, 251, 0.10);
+}
+
+.decor::before{ 
+    width: 295px;
+    height: 2px;
+}
+
+
+
+.advant-paragraph {
     color: #FBFBFB;
     font-family: Inter;
     font-size: 12px;
@@ -66,34 +97,14 @@
     font-weight: 400;
     line-height: 1.16;
     letter-spacing: -0.02em;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: auto;
-    margin-top: 80px;
     opacity: 0.8;
-}
-
-.decor {
-    width: 295px;
-    height: 2px;
-    flex-shrink: 0;
-}
-
-.decor::before {
-    content: "";
-    width: 295px;
-    height: 2px;
-    flex-shrink: 0;
-    border-radius: 18px;
-    background: rgba(251, 251, 251, 0.10);
-    position: absolute;
-    display: block;
 }
 
 .advent-photo {
     width: 335px;
     height: 424px;
-    background: url(<path-to-image>), lightgray -279.167px -3px / 245.174% 108.962% no-repeat;flex-shrink: 0;
+    background: url(<path-to-image>), lightgray -279.167px -3px / 245.174% 108.962% no-repeat;
+    flex-shrink: 0;
     border-radius: 24px;
     margin-left: auto;
     margin-right: auto;
