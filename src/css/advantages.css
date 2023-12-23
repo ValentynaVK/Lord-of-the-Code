@@ -22,8 +22,8 @@
 
 .advant-conteiner {
     display: flex;
-    width: 335px;
-    justify-content: flex-end;
+    max-width: 335px;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 }
@@ -62,9 +62,7 @@ li {
     line-height: 1.8;
 }
 
-.advant-list-item {
-  
-}
+.advant-list-item {}
 
 .advant-list-item::before {
     counter-increment: list;
@@ -76,18 +74,8 @@ li {
     line-height: 1;
     letter-spacing: -0.05em;
     display: flex;
-    align-items: center;
     margin-bottom: 18px;
-    border-radius: 18px;
-    background: rgba(251, 251, 251, 0.10);
 }
-
-.decor::before{ 
-    width: 295px;
-    height: 2px;
-}
-
-
 
 .advant-paragraph {
     color: #FBFBFB;
@@ -100,6 +88,17 @@ li {
     opacity: 0.8;
 }
 
+.advant-paragraph::before {
+    display: flex;
+    content: " ";
+    width: 295px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: rgba(251, 251, 251, 0.10);
+    margin-bottom: 18px;
+}
+
 .advent-photo {
     width: 335px;
     height: 424px;
@@ -109,3 +108,71 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* ============tablet============ */
+
+@media screen and (min-width: 768px) {
+    .advant-conteiner {
+        width: 704px;
+        max-width: 768px;
+
+    }
+
+    .advant-list {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 44px 32px;
+        flex-direction: unset;
+    }
+
+    .advant-list-item {
+        width: 304px;
+    }
+
+    .advant-paragraph {
+        width: 292px;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+        opacity: 0.8;
+    }
+
+    .advent-photo {
+        width: 704px;
+        height: 424px;
+    }
+
+}
+
+ /* ==========desktop========== */
+
+@media screen and (min-width: 1280px) {
+   .advant-conteiner {
+    max-width: 1280px;
+    width: 716px;
+  } 
+  
+  .advant-section {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .advent-picture {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .advent-photo {
+    width: 432px;
+    height: 424px;     
+  }
+
+  
+}
+
+
