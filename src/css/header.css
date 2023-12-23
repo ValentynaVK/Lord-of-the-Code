@@ -1,3 +1,7 @@
+
+.hed{
+  position: absolute;
+}
 /* ============  MOBILE STYLES HEADER =========== */
 .hed {
   max-width: 375px;
