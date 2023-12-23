@@ -1,6 +1,5 @@
 /* ------------MOBILE HERO------------- */
 
-
     .hero-section {
         padding-top: 198px;
         padding-bottom: 243px;
@@ -8,11 +7,8 @@
         background-image: url("../img/mob/bg-hero@1x.png");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
-        
-    
+        background-position: center;  
     }
-
     .hero-container {
         padding-left: 20px;
         padding-right: 20px; 
@@ -20,7 +16,6 @@
         margin-left: auto;
         max-width: 375px;
     }
-
     .hero-title {
         color: #FBFBFB;
         text-align: center;
@@ -29,10 +24,8 @@
         line-height: 32px;
         margin-bottom: 24px;
     }
-
     .hero-text {
         text-align: center;
-        margin-bottom: 38px;
         color: rgba(251, 251, 251, 0.70);
         text-align: center;
         font-family: Inter;
@@ -41,23 +34,35 @@
         font-weight: 300;
         line-height: 14px;
     }
-
-
-    .hero-button {
-        border-radius: 15px;
-        background: #1B414B;
-        text-align: center;
-        padding: 14px 32px;
-        color: #FBFBFB;
-        font-family: Inter;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 18px;
-        letter-spacing: -0.28px;
-        cursor: pointer;
-        border: none;
+    .hero-link {
+        min-width: 141px;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 14px 32px;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.28;
+            letter-spacing: -0.02em;
+            border-radius: 15px;
+            border: none;
+            color: #fbfbfb;
+            background-color: #1b414b;
+            text-align: center;
+            transition: color 250ms linear, background-color 250ms linear;
     }
+        .hero-link:hover,
+        .hero-link:focus {
+            background-color: #fbfbfb;
+            color: #1b414b;
+        }
+        .hero-link-cont {
+            margin-top: 32px;
+            display: flex;
+            align-items: center;
+
+        }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
@@ -67,7 +72,6 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 }
 
 /* -----------TABLETE HERO------------ */
-
 
 @media screen and (min-width: 768px) {
     .hero-section {
@@ -80,7 +84,6 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         padding-top: 200px;
         padding-bottom: 215px;
     }
-
     .hero-container {
         padding-left: 32px;
         padding-right: 32px;
@@ -88,8 +91,6 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         margin-left: auto;
         max-width: 768px;
     }
-
-
     .hero-title {
         margin-bottom: 24px;
         color: #FBFBFB;
@@ -101,10 +102,8 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         letter-spacing: -1.4px;
         height: auto;
     }
-
     .hero-text {
         text-align: center;
-        margin-bottom: 42px;
         color: rgba(251, 251, 251, 0.70);
         text-align: center;
         font-weight: 300;
@@ -117,23 +116,15 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         margin-left: auto;
         margin-right: auto;
     }
-
-
-    .hero-button {
-        border-radius: 15px;
-        background: #1B414B;
-        text-align: center;
-        color: #FBFBFB;
-        font-family: Inter;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        cursor: pointer;
-        border: none;
-        padding: 16px 40px;
-        line-height: 110%;
-        letter-spacing: -0.36px;
-    }
+.hero-link {
+    min-width: 179px;
+    padding: 16px 40px;
+    font-size: 18px;
+    line-height: 1.1;
+}
+.hero-link-cont {
+    margin-top: 42px;
+}
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px),
@@ -184,7 +175,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
                 margin-left: auto;
                 margin-right: auto;
         }
-
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
