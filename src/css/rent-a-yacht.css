@@ -1,0 +1,164 @@
+.rent-section {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.rent-container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rent-title {
+  color: #fbfbfb;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+.rent-form-input {
+  width: 100%;
+  height: 42px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  color: #fbfbfb;
+  font-size: 12px;
+  line-height: 1.17;
+  background-color: transparent;
+  outline: 0px solid transparent;
+  margin-bottom: 18px;
+  margin-top: 0;
+  transition: border-color 250ms linear;
+}
+
+.rent-form-input::placeholder {
+  color: rgba(251, 251, 251, 0.4);
+  font-weight: 400;
+}
+
+.rent-comment {
+  display: block;
+  width: 100%;
+  height: 108px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  padding: 14px 18px;
+  resize: none;
+  font-size: 12px;
+  line-height: 1.17;
+  color: #fbfbfb;
+  background-color: transparent;
+  outline: transparent;
+  margin-bottom: 40px;
+  margin-top: 0;
+  transition: border-color 250ms linear;
+}
+
+.rent-comment::placeholder {
+  color: rgba(251, 251, 251, 0.4);
+  font-weight: 400;
+}
+
+.rent-form-input:focus,
+.rent-comment:focus {
+  border-color: rgba(251, 251, 251, 0.5);
+}
+
+.rent-button {
+  color: #fbfbfb;
+  background-color: #1b414b;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  margin-bottom: 80px;
+  padding: 14px 44px;
+  display: block;
+  border-radius: 15px;
+  min-width: 122px;
+  height: 46px;
+  border: none;
+  transition: color 250ms linear, background-color 250ms linear;
+}
+
+.rent-button:hover,
+.rent-button:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
+}
+
+.rent-image {
+  border-radius: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  background: lightgray -197.931px -2.822px / 187.774% 107.967% no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .rent-section {
+    margin-top: 70px;
+    margin-bottom: 75px;
+  }
+
+  .rent-container {
+    max-width: 768px;
+  }
+
+  .rent-form {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 472px;
+  }
+
+  .rent-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+
+  .rent-form-input {
+    height: 54px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 14px;
+    line-height: 1.28;
+  }
+
+  .rent-comment {
+    height: 116px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 14px;
+    line-height: 1.28;
+    margin-bottom: 50px;
+  }
+
+  .rent-button {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 100px;
+    padding: 18px 75px;
+    min-width: 194px;
+    height: 56px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .rent-container {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 50px;
+  }
+
+  .rent-button {
+    margin-bottom: 0;
+  }
+}
