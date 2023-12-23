@@ -1,4 +1,24 @@
+
 /* Mobile */
+
+/* @media screen and (min-width: 768px) {
+    .container_about {
+        max-width: 768px;
+        padding: 75px 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container_about {
+        max-width: 1280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+} */
+
+
+
 
 .section_about_us {
     background: #0E1823;
@@ -15,6 +35,7 @@
 }
 
 .about_us_text {
+
     display: flex;
     width: 335px;
     padding: 40px 20px 335px 20px;
@@ -164,6 +185,7 @@
 {
 
 .about_us_text {
+
     width: 1180px;
     height: 675px;
     padding-left: 50px;
@@ -213,7 +235,8 @@
     color: #040306;
     font-family: Inter;
     font-size: 13px;
-     font-style: normal;
+    font-style: normal;
+
     font-weight: 400;
     line-height: 115%;
     letter-spacing: -0.26px;
@@ -225,6 +248,7 @@
     left: auto;
     top: 360px;
     object-fit: cover;
+
     width: 1180px;
     height: 470px;
     content: url('../img/desktop/yj-fleet@1x.png');
@@ -233,6 +257,8 @@
 }
 
 
+    border-radius: 24px;
+}
 
 
 
