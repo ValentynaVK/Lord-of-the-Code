@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/lord-of-the-code/",
+    "build": "vite build --base=/Lord-of-the-Code/",
     "preview": "vite preview"
   },
   "devDependencies": {

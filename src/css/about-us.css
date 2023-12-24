@@ -1,0 +1,264 @@
+
+/* Mobile */
+
+/* @media screen and (min-width: 768px) {
+    .container_about {
+        max-width: 768px;
+        padding: 75px 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container_about {
+        max-width: 1280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+} */
+
+
+
+
+.section_about_us {
+    background: #0E1823;
+    align-items: center;
+}
+
+.container_about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_us_text {
+
+    display: flex;
+    width: 335px;
+    padding: 40px 20px 335px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 24px;
+    background: #FBFBFB;
+
+}
+
+.about_title {
+    width: 295px;
+    color: #1B414B;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 100% */
+    letter-spacing: -0.56px;
+}
+
+.about_description {
+    width: 354px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about_description_title {
+    text-align: left;
+
+
+    width: 295px;
+    color: #1B414B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 18px */
+    letter-spacing: -0.36px;
+}
+
+.about_description_text {
+    opacity: 0.4;
+
+    width: 295px;
+    color: #040306;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 116.667% */
+    letter-spacing: -0.24px;
+}
+
+.img_about_us {
+    position: absolute;
+    left: auto;
+    top: 360px;
+    object-fit: cover;
+    width: 335px;
+    height: 395px;
+    flex-shrink: 0;
+    border-radius: 24px;
+     content: url('../img/mob/yacht-jet-fleet@1x.png'); 
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+    .about_us_text {
+        width: 704px;
+        height: 675px;
+        border-radius: 24px;
+        background-color: #FBFBFB;
+        /* flex-direction: row; */
+        /* justify-content: space-between; */
+        display: inline-flex;
+        padding: 50px 136px 244px 32px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .about_title {
+
+        width: 536px;
+        color: #1B414B;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+         /* 100% */
+        letter-spacing: -0.96px;
+    }
+
+    .about_description {
+        width: 389px;
+        height: 187px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about_description_title {
+        color: #1B414B;
+        font-family: Inter;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+         /* 23px */
+         letter-spacing: -0.46px;
+    }
+
+    .about_description_text {
+    color: #040306;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    /* 14.95px */
+    letter-spacing: -0.26px;
+        opacity: 0.4;
+    }
+
+    .img_about_us {
+        position: absolute;
+        left: auto;
+        top: 480px;
+        object-fit: cover;
+        width: 704px;
+        height: 470px;
+        content: url('../img/tablet/yacht-jet-fleet@1x.png');
+        border-radius: 24px;
+    }
+}
+
+@media screen and (min-width: 1280px)
+{
+
+.about_us_text {
+
+    width: 1180px;
+    height: 675px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 24px;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.about_title {
+    color: #1B414B;
+    width: 537px;
+    height: 144px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.about_description {
+    width: 354px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about_description_title {
+    font-family: Inter;
+    color: #1B414B;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.about_description_text{
+    color: #040306;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: -0.26px;
+    opacity: 0.4;
+}
+
+.img_about_us {
+    position: absolute;
+    left: auto;
+    top: 360px;
+    object-fit: cover;
+
+    width: 1180px;
+    height: 470px;
+    content: url('../img/desktop/yj-fleet@1x.png');
+        border-radius: 24px;
+} 
+}
+
+
+    border-radius: 24px;
+}
+
+
+
